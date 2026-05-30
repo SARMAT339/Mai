@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 269439406523436463, guid: 02af17d7f9685b649a864f3c6168e3fd, type: 3}
+  m_Sprite: {fileID: -5266789824349620218, guid: a7979f1921cb5ec4dacc24a86714514f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -267,7 +267,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4724166600014368479, guid: a7595ce315345eb4c8fcc8201d700e1e, type: 3}
+  m_Sprite: {fileID: -1076633883802439962, guid: 1e6965869474a0840a2afecb994269ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -287,7 +287,7 @@ Transform:
   m_GameObject: {fileID: 282156642}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.6, y: 0, z: -0.1}
+  m_LocalPosition: {x: 4.48, y: 0, z: -0.1}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1314,7 +1314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1372149227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1655,7 +1655,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5505013692666170078, guid: 5c8650205057786478c60bb9c9fb39bb, type: 3}
+  m_Sprite: {fileID: -6576374159750988736, guid: c485f8cc6b6e4f3498298d3be0c147d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1675,7 +1675,7 @@ Transform:
   m_GameObject: {fileID: 1822515074}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.6, y: 0, z: -0.1}
+  m_LocalPosition: {x: -4.48, y: 0, z: -0.1}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1742,7 +1742,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3497719204880902739, guid: fc800f2f91353254392219239f23efe3, type: 3}
+  m_Sprite: {fileID: 6150249590196078524, guid: d1fadb28ef28af54aaf21efd8c0a14a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1918,6 +1918,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2010915322}
+  - component: {fileID: 2010915323}
   m_Layer: 0
   m_Name: Sector1
   m_TagString: Untagged
@@ -1940,6 +1941,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2010915323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010915321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b4a1c32f5d4e6a9b0c1d2e3f4a5b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - riddleText: {fileID: 1952602592}
+    answerInput: {fileID: 0}
+    rewardPhoto: {fileID: 1822515075}
+  - riddleText: {fileID: 1188794217}
+    answerInput: {fileID: 0}
+    rewardPhoto: {fileID: 183196585}
+  - riddleText: {fileID: 358256747}
+    answerInput: {fileID: 0}
+    rewardPhoto: {fileID: 282156643}
+  riddlesToShow: 3
+  photoNamePrefix: Picsart_
+  restartButton: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
